@@ -1,0 +1,38 @@
+[
+	{
+		"id" : "1",
+		"name" : "Os cães sarnentos",
+		"genre" : "rock dos brabos",
+		"responsible" : "Mr Lucas Aversi"
+	},
+    {
+		"id" : "2",
+		"name" : "Insira o nome da banda que vocÊ mais gostar aqui Anderson Franciscato :D",
+		"genre" : "Insira o genero que você mais gostar aqui Anderson Franciscato :D",
+		"responsible" : "Mr Anderson Franciscato "
+	},
+    {
+		"id" : "3",
+		"name" : "The Dead Kennedys",
+		"genre" : "Punk Rock",
+		"responsible" : "John Kennedy"
+	},
+    {
+		"id" : "4",
+		"name" : "EDX",
+		"genre" : "House",
+		"responsible" : "A bunch of teenagers"
+	},
+    {
+		"id" : "5",
+		"name" : "Infected Mushroom",
+		"genre" : "Psychodelic Trance",
+		"responsible" : "2 guys from Israel"
+	},
+    {
+		"id" : "6",
+		"name" : "Zezé de Camargo e Luciano",
+		"genre" : "Sertanejo",
+		"responsible" : "Finado Francisco"
+	}
+]

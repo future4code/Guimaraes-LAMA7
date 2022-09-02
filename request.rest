@@ -1,0 +1,14 @@
+//_________________________________________ ENDPOINTS______________________________________//
+
+//1 - Signup model
+
+//POST http://localhost:3003/users/signup
+//Content-Type: application/json
+
+//{
+//   "name": "def", 
+//   "email": "ghi@email.com",
+//   "password": "123456",
+//   "role": "admin"
+//}
+

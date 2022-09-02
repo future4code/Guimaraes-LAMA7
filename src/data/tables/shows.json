@@ -1,0 +1,28 @@
+[
+	{
+		"id" : "1",
+		"week_day " : "friday",
+		"start_time " : "8",
+		"end_time " : "9",
+        "band_id ":"1"
+	},
+    {
+		"id" : "2",
+		"week_day " : "friday",
+		"start_time " : "9",
+		"end_time " : "10",
+        "band_id ":"1"
+	},	{
+		"id" : "3",
+		"week_day " : "saturday",
+		"start_time " : "22",
+		"end_time " : "23",
+        "band_id ":"1"
+	},	{
+		"id" : "4",
+		"week_day " : "sunday",
+		"start_time " : "8",
+		"end_time " : "9",
+        "band_id ":"1"
+	}
+]
