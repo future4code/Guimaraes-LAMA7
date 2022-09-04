@@ -22,8 +22,8 @@ export class UserDatabase extends BaseDatabase {
         .into(UserDatabase.TABLE_NAME);      
         } catch (error: any) {
         throw new CustomError(400,error.sqlMessage);
-        }
-    }
+        };
+    };;
 
     public getAllUsers = async():Promise<any>=>{
         try {
@@ -57,9 +57,4 @@ export class UserDatabase extends BaseDatabase {
           throw new CustomError(400,error.sqlMessage);
         };
       };;
-  
-
-  
-
-
 };;;
