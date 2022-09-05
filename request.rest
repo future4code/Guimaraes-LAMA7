@@ -20,7 +20,7 @@ Content-Type: application/json
 
 {
    "email": "teste@email.com",
-   "password": "123456"
+   "password": ""
 }
 
 ###
@@ -31,5 +31,14 @@ GET http://localhost:3003/users/allUsers
 
 ###
 
+POST http://localhost:3003/shows/create
+Content-Type: application/json
+
+{
+   "week_day": "Friday", 
+   "start_time": 8, 
+   "end_time": 10, 
+   "band_id": 1
+}
 
 
