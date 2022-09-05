@@ -5,4 +5,8 @@ export const userRouter = express.Router()
 
 const userController = new UserController()
 
-userRouter.post("/signup", )//add patch here.
+userRouter.post("/signup", userController.signup )
+userRouter.post("/login", userController.login ) 
+
+userRouter.get("/allUsers", userController.getAllUsers )
+

@@ -1,14 +1,35 @@
 //_________________________________________ ENDPOINTS______________________________________//
 
-//1 - Signup model
+//1 - Signup 
 
-//POST http://localhost:3003/users/signup
-//Content-Type: application/json
+POST http://localhost:3003/users/signup
+Content-Type: application/json
 
-//{
-//   "name": "def", 
-//   "email": "ghi@email.com",
-//   "password": "123456",
-//   "role": "admin"
-//}
+{
+   "name": "teste", 
+   "email": "teste@email.com",
+   "password": "123456",
+   "role": "admin"
+}
+
+###
+//2 - Login
+
+POST http://localhost:3003/users/login
+Content-Type: application/json
+
+{
+   "email": "teste@email.com",
+   "password": "123456"
+}
+
+###
+
+//3 - GET ALL USERS
+
+GET http://localhost:3003/users/allUsers
+
+###
+
+
 
