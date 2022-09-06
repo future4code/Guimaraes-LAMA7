@@ -1,26 +1,26 @@
-//_________________________________________ ENDPOINTS______________________________________//
+//_________________________________________ USER ENDPOINTS ______________________________________//
 
-//1 - Signup 
+//1 - SIGNUP 
 
 POST http://localhost:3003/users/signup
 Content-Type: application/json
 
 {
-   "name": "teste", 
-   "email": "teste@email.com",
-   "password": "123456",
-   "role": "admin"
+   "name": "Lavaersii", 
+   "email": "laversiii@email.com",
+   "password": "aversi",
+   "role": "normal"
 }
 
 ###
-//2 - Login
+//2 - LOGIN
 
 POST http://localhost:3003/users/login
 Content-Type: application/json
 
 {
-   "email": "teste@email.com",
-   "password": "123456"
+   "email": "laversii@email.com",
+   "password": "aversi"
 }
 
 ###
@@ -31,5 +31,38 @@ GET http://localhost:3003/users/allUsers
 
 ###
 
+//_________________________________________ BAND ENDPOINTS ______________________________________//
+
+//1 - REGISTER  - REQUIRES ADMIN AUTHORIZATION
+
+POST http://localhost:3003/bands/registerBand
+Content-Type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAwZDg0ZmNjLTM5OWItNGE0Mi05YWY4LTI2NjM1M2VlOTAxZSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTY2MjQyMzQ1OCwiZXhwIjoxNjYyNDM0MjU4fQ.jpPJKWWM9Os-4efbq0TLscMxlEHm2D71DlZEPJu3dt0
+
+{
+   "name": "Grrrr", 
+   "genre": "Minimal",
+   "responsible": "Solomon Grundge"
+}
+###
+
+//2 - GET ALL BANDS
+GET http://localhost:3003/bands/allBands
+Content-Type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NzFjZWY4LTE4Y2QtNGE4Zi04ZTFiLWNhNTFlNWVkZTRkZCIsInJvbGUiOiJub3JtYWwiLCJpYXQiOjE2NjI0MjIxNTAsImV4cCI6MTY2MjQzMjk1MH0.ohB0vc76UVJoLM_y3dgHDMUjX3LWlznC2rr8TRGbqkY
+
+###
+
+//2.1 - GET BAND BY ID
+
+GET http://localhost:3003/bands/id/1
+
+###
+
+//2.2 - GET BAND BY NAME
+
+GET http://localhost:3003/bands/name/edx
+
+###
 
 
