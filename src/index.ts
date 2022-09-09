@@ -1,5 +1,6 @@
 import app from "./app";
 import { userRouter } from "./routes/userRouter";
+import { showRouter } from "./routes/showRouters";
 import { bandRouter } from "./routes/bandRouter";
 
 
@@ -8,8 +9,8 @@ import { bandRouter } from "./routes/bandRouter";
 
 // CONSULTAR USUÁRIOS
 app.use("/users", userRouter)
+app.use("/shows", showRouter)
 app.use("/bands", bandRouter)
-
 
 
 
