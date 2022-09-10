@@ -65,4 +65,12 @@ GET http://localhost:3003/bands/name/edx
 
 ###
 
+POST http://localhost:3003/shows/create
+Content-Type: application/json
+{
+   "week_day": "Sexta", 
+   "start_time": 9,
+   "end_time": 10,
+   "band_id": "1"
+}
 
